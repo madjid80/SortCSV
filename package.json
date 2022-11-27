@@ -1,0 +1,17 @@
+{
+    "main": "out/index.js",
+    "scripts": {
+        "build": "tsc",
+        "format": "prettier --write \"src/**/*.ts\"",
+        "lint": "tslint -p tsconfig.json",
+        "start": "node out/index.js"
+    },
+    "devDependencies": {
+        "@types/node": "^18.11.9",
+        "typescript": "^4.8.4"
+    },
+    "dependencies": {
+        "bignumber.js": "^9.1.0"
+    },
+    "version": "1.0.0"
+}
